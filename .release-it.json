@@ -1,0 +1,28 @@
+{
+  "git": {
+    "tagName": "${version}",
+    "commitMessage": "chore(release): 🔖 v${version}",
+    "pushArgs": [
+      "--follow-tags",
+      "--force"
+    ],
+    "requireUpstream": false
+  },
+  "github": {
+    "release": true
+  },
+  "npm": {
+    "publish": false
+  },
+  "scripts": {},
+  "plugins": {
+    "@release-it/bumper": {
+      "out": [
+        "./package-lock.json"
+      ]
+    }
+  },
+  "hooks": {
+    "after:bump": "npx conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 && git add ."
+  }
+}
