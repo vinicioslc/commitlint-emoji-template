@@ -1,6 +1,6 @@
 {
   "name": "commitlint-emoji",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "A tool to help peoples avoid adverse reactions from drugs.",
   "main": "index.js",
   "scripts": {
