@@ -45,6 +45,12 @@ module.exports = {
       name: 'perf'
     },
     {
+      emoji: '⚡',
+      code: ':zap:',
+      description: 'Improve performance',
+      name: 'zap'
+    },
+    {
       emoji: '🎫',
       code: ':file_cabinet:',
       description: 'Chores',
@@ -63,16 +69,28 @@ module.exports = {
       name: 'ui'
     },
     {
-      emoji: '🌀',
-      code: ':cyclone:',
-      description: 'Refactor code',
-      name: 'refactor'
+      emoji: '🗑️',
+      code: ':wastebasket:',
+      description: 'Deprecate code that needs to be cleaned up',
+      name: 'clean'
+    },
+    {
+      emoji: '🗑️',
+      code: ':wastebasket:',
+      description: 'Deprecate code that needs to be cleaned up',
+      name: 'deprecated'
     },
     {
       emoji: '🔧',
       code: ':wrench:',
       description: 'Add or update configuration files',
       name: 'config'
+    },
+    {
+      emoji: '🔧',
+      code: ':wrench:',
+      description: 'Add or update configuration files',
+      name: 'boilerplate'
     },
     {
       emoji: '🌐',
@@ -333,12 +351,6 @@ module.exports = {
       name: 'fixci'
     },
     {
-      emoji: '🧹',
-      code: ':broom:',
-      description: 'Deprecate code that needs to be cleaned up',
-      name: 'clean'
-    },
-    {
       emoji: '🚮',
       code: ':trash:',
       description: 'Remove dead code',
@@ -457,6 +469,12 @@ module.exports = {
       code: ':poop:',
       description: 'Write bad code that needs to be improved',
       name: 'poo'
+    },
+    {
+      emoji: '♻️',
+      code: ':recycle:',
+      description: 'Refactor code',
+      name: 'recycle'
     }
   ]
 }

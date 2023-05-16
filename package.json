@@ -10,7 +10,7 @@
     "release": "release-it",
     "cm": "cz",
     "cma": "git add . && npm run cm",
-    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0",
+    "changelog": "npx conventional-changelog-cli -p cz-emoji-config -i CHANGELOG.md -s -r 0",
     "r:p": "release-it patch",
     "r:mi": "release-it minor",
     "r:ma": "release-it major"
@@ -23,7 +23,6 @@
     "@release-it/conventional-changelog": "^5.1.1",
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^2.2.2",
-    "conventional-changelog-custom-config": "^0.3.1",
     "conventional-changelog-cz-emoji-config": "^1.0.1",
     "cross-env": "^7.0.3",
     "cz-emoji": "^1.3.1",

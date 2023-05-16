@@ -23,6 +23,6 @@
     }
   },
   "hooks": {
-    "after:bump": "npx conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 && git add ."
+    "after:bump": "npm run changelog && git add ."
   }
 }
